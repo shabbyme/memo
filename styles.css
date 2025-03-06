@@ -1,0 +1,82 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  color: #14171a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1da1f2;
+}
+
+/* Memos 容器 */
+.memos-container {
+  margin-top: 20px;
+}
+
+/* 单个 Memo 卡片 */
+.memo {
+  background-color: #ffffff;
+  border: 1px solid #e1e8ed;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Memo 头部（用户信息） */
+.memo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.memo-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.memo-header .username {
+  font-weight: bold;
+  color: #14171a;
+}
+
+.memo-header .timestamp {
+  color: #657786;
+  margin-left: auto;
+}
+
+/* Memo 内容 */
+.memo-content {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #14171a;
+}
+
+/* Memo 操作按钮 */
+.memo-actions {
+  margin-top: 10px;
+}
+
+.memo-actions button {
+  background: none;
+  border: none;
+  color: #657786;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.memo-actions button:hover {
+  color: #1da1f2;
+}
