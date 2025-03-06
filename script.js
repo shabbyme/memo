@@ -26,7 +26,7 @@ async function fetchAndRenderMemos() {
 
       const username = document.createElement('span');
       username.classList.add('username');
-      username.textContent = memo.creatorName || '匿名用户';
+      username.textContent = memo.creatorName || 'Shabby';
 
       const timestamp = document.createElement('span');
       timestamp.classList.add('timestamp');
